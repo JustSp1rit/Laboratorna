@@ -1,0 +1,17 @@
+#include <iostream>
+#include "stdio.h"
+#include "math.h" 
+using namespace std;
+int main()
+{
+double a, x, b, G, ODZ;
+printf("Введіть x: \n");
+scanf("%lf", &x);
+printf("Введіть a: \n");
+scanf("%lf", &a);
+if((2.0 * cos(x) - sin(x)) == 0) G=ODZ;
+else b = (pow(sin(3.0 * a + 0.785398),3.0) + pow(cos(pow(x,3.0)),2.0)) / (2.0 * cos(x) - sin(x));
+if (G != ODZ) printf("b=%lf", b);
+else printf("ОДЗ");
+return 0;
+}
