@@ -12,6 +12,6 @@ scanf("%lf", &a);
 if((2.0 * cos(x) - sin(x)) == 0) G=ODZ;
 else b = (pow(sin(3.0 * a + 0.785398),3.0) + pow(cos(pow(x,3.0)),2.0)) / (2.0 * cos(x) - sin(x));
 if (G != ODZ) printf("b=%lf", b);
-else printf("ОДЗ");
+else printf("Помилка - ОДЗ");
 return 0;
 }
